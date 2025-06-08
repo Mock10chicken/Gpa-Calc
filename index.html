@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GPA Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>GPA Calculator</h1>
+    <label for="courseCount">How many courses?</label>
+    <input type="number" id="courseCount" min="1" />
+    <button onclick="generateInputs()">Next</button>
+    <form id="gpaForm" style="display:none;">
+      <div id="courseInputs"></div>
+      <button type="submit">Calculate GPA</button>
+    </form>
+    <p id="result"></p>
+  </div>
+  <footer>
+    <p>Made by Noah Kornman</p>
+    <p>Based off of Isidore Newman Highschool grading system</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

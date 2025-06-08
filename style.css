@@ -1,0 +1,22 @@
+body {
+  background-color: #3b4c36;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+select, input[type=number], button {
+  padding: 10px;
+  margin: 5px;
+}
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  text-align: left;
+  color: orange;
+}
